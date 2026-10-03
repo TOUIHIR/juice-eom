@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SÈVE — Mangue</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNNTAgMTJDNzggMTAgOTIgNDAgODQgNjYgNzYgOTAgNDAgOTIgMjQgNzIgMTAgNTQgMjIgMTQgNTAgMTJaIiBmaWxsPSIjRkY5RjJFIi8+PHBhdGggZD0iTTYwIDMwQzgwIDM2IDg0IDYyIDcwIDgwIDg2IDYyIDgwIDQ0IDYwIDMwWiIgZmlsbD0iI0QyNTYxQSIgb3BhY2l0eT0iLjU1Ii8+PHBhdGggZD0iTTUwIDEyQzU0IDQgNjQgMiA3MiA2IDY2IDEyIDU4IDE0IDUwIDEyWiIgZmlsbD0iIzNFOEU0MSIvPjxlbGxpcHNlIGN4PSIzNiIgY3k9IjM0IiByeD0iMTAiIHJ5PSI1IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuNCIgdHJhbnNmb3JtPSJyb3RhdGUoLTM1IDM2IDM0KSIvPjwvc3ZnPg==">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style1.css"></head><body>
+<div id="loader"><div class="ld-fruits" id="ld-fruits"></div><div class="ld-in"><div id="ld-main"></div><div class="glass"><div class="liquid" id="liquid"></div></div><div class="logo-loader">SÈVE</div><div class="loader-bar"><div id="progress-bar"></div></div><div id="loader-text"><span id="percent">0%</span> · Préparation de votre jus</div></div></div>
+<div id="page-transition" class="transition-overlay"><div class="liquid-wave"></div></div>
+<div id="cursor-glow"></div>
+<header id="main-header"><a class="header-logo" href="index1.html">SÈVE</a><nav class="header-nav" id="dots"></nav><div class="header-cart" id="cart-toggle">Panier <span id="cart-count">0</span></div></header>
+<div class="hero-transform" id="hero-wrapper"><div class="hero-sticky"><canvas id="hero-canvas"></canvas><div class="canvas-vignette top"></div><div class="canvas-vignette bottom"></div><div class="floaters" id="floaters"></div>
+<div class="hero-overlay" id="parallax"><div class="hero-text" data-start="0" data-end="0.3"><h1>Soleil en bouteille</h1><p>Mangues mûries à l'arbre, pressées à froid.</p></div><div class="hero-text" data-start="0.36" data-end="0.64"><h1>Pulpe intense, zéro compromis</h1><p>Cent pour cent fruit, rien d'autre.</p></div><div class="hero-text" data-start="0.7" data-end="1"><h1>Une gorgée de soleil</h1><p>Découvrez le jus SÈVE Mangue.</p></div></div><div class="scroll-hint" id="hint">Faites défiler</div></div></div>
+<main class="main-content">
+<section class="stats-section"><div class="plate" style="--i:0"><p class="stat-value" data-target="100">0</p><p class="stat-label">% fruit pressé</p></div><div class="plate" style="--i:1"><p class="stat-value" data-target="0">0</p><p class="stat-label">g de sucre ajouté</p></div><div class="plate" style="--i:2"><p class="stat-value" data-target="48">0</p><p class="stat-label">h entre cueillette et bouteille</p></div></section>
+<section class="grid-section"><div class="flip" style="--i:0"><div class="flip-in"><div class="face"><h3>Ingrédients</h3></div><div class="face back"><p>Mangues mûries à l'arbre, rien d'autre. Ni eau ajoutée, ni arômes.</p></div></div></div><div class="flip" style="--i:1"><div class="flip-in"><div class="face"><h3>Bienfaits</h3></div><div class="face back"><p>Naturellement riche en vitamines A et C, pour une dose d'énergie douce.</p></div></div></div><div class="flip" style="--i:2"><div class="flip-in"><div class="face"><h3>Goût</h3></div><div class="face back"><p>Sucré, velouté et solaire, avec une pointe d'acidité en finale.</p></div></div></div><div class="flip" style="--i:3"><div class="flip-in"><div class="face"><h3>Fabrication</h3></div><div class="face back"><p>Pressé à froid moins de 48 h après la cueillette, sans pasteurisation lourde.</p></div></div></div></section>
+<section class="testimonial-section"><div class="testimonial rev"><p>« La mangue la plus vraie que j'aie goûtée. » — Camille, Lyon</p><span>★★★★★</span></div></section>
+<section class="purchase-section"><div class="purchase-container">
+<div class="stage3d" id="stage3d"><div class="fruit3d" id="fruit3d"></div></div>
+<h2>SÈVE Mangue</h2><p class="price" id="price">12,00 €</p><p class="description">Un jus de mangue épais et lumineux, pressé à froid, pour retrouver le goût du fruit mûr.</p>
+<div class="purchase-options"><div class="option"><label for="product-size">Taille</label><select id="product-size"><option value="250 ml" data-m="1">250 ml</option><option value="500 ml" data-m="1.8">500 ml</option><option value="1 L" data-m="3.2">1 L</option></select></div><div class="option"><label for="product-qty">Quantité</label><input id="product-qty" type="number" min="1" value="1"></div></div>
+<button class="btn-premium" id="add-to-cart">Ajouter au panier</button></div></section>
+<section class="ring-section"><h3>Choisis ton jus</h3><div class="ring-stage" id="ring-stage"><div class="ring" id="ring"></div></div><div class="ring-ctrl"><button id="ring-prev" aria-label="Précédent">‹</button><button id="ring-next" aria-label="Suivant">›</button></div></section>
+<section class="next-section" id="next-section"></section>
+</main>
+<nav class="dock" id="dock"></nav>
+<aside id="cart-drawer"><div class="drawer-header"><h2>Votre panier</h2><button id="close-cart">✕</button></div><div id="cart-items"></div><div class="total-line"><span>Total</span><span id="cart-total">0,00 €</span></div><button class="btn-checkout" id="checkout-btn">Commander</button></aside>
+<script src="script1.js"></script></body></html>

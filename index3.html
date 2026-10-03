@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SÈVE — Citron</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cGF0aCBkPSJNNiA1MEM2IDUwIDE0IDQ2IDIwIDQ0IDI4IDIyIDcyIDIyIDgwIDQ0IDg2IDQ2IDk0IDUwIDk0IDUwIDk0IDUwIDg2IDU0IDgwIDU2IDcyIDc4IDI4IDc4IDIwIDU2IDE0IDU0IDYgNTAgNiA1MFoiIGZpbGw9IiNFNEYwM0EiLz48cGF0aCBkPSJNMzAgNjZDNDQgNzYgNjYgNzQgNzYgNTggNzAgNzIgNDggODIgMzAgNjZaIiBmaWxsPSIjOUJCODFDIiBvcGFjaXR5PSIuNiIvPjxlbGxpcHNlIGN4PSIzOCIgY3k9IjM4IiByeD0iMTIiIHJ5PSI1IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuNDUiLz48L3N2Zz4=">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Manrope:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style3.css"></head><body>
+<div id="loader"><div class="ld-fruits" id="ld-fruits"></div><div class="ld-in"><div id="ld-main"></div><div class="glass"><div class="liquid" id="liquid"></div></div><div class="logo-loader">SÈVE</div><div class="loader-bar"><div id="progress-bar"></div></div><div id="loader-text"><span id="percent">0%</span> · Préparation de votre jus</div></div></div>
+<div id="page-transition" class="transition-overlay"><div class="liquid-wave"></div></div>
+<div id="cursor-glow"></div>
+<header id="main-header"><a class="header-logo" href="index1.html">SÈVE</a><nav class="header-nav" id="dots"></nav><div class="header-cart" id="cart-toggle">Panier <span id="cart-count">0</span></div></header>
+<div class="hero-transform" id="hero-wrapper"><div class="hero-sticky"><canvas id="hero-canvas"></canvas><div class="canvas-vignette top"></div><div class="canvas-vignette bottom"></div><div class="floaters" id="floaters"></div>
+<div class="hero-overlay" id="parallax"><div class="hero-text" data-start="0" data-end="0.3"><h1>Fraîcheur éclatante</h1><p>Citron et citron vert pressés à froid, une touche de menthe.</p></div><div class="hero-text" data-start="0.36" data-end="0.64"><h1>Vif, net, électrique</h1><p>Cent pour cent fruit.</p></div><div class="hero-text" data-start="0.7" data-end="1"><h1>Le citron en grand</h1><p>Découvrez le jus SÈVE Citron Vert.</p></div></div><div class="scroll-hint" id="hint">Faites défiler</div></div></div>
+<main class="main-content">
+<section class="stats-section"><div class="plate" style="--i:0"><p class="stat-value" data-target="100">0</p><p class="stat-label">% fruit pressé</p></div><div class="plate" style="--i:1"><p class="stat-value" data-target="0">0</p><p class="stat-label">g de sucre ajouté</p></div><div class="plate" style="--i:2"><p class="stat-value" data-target="48">0</p><p class="stat-label">h entre cueillette et bouteille</p></div></section>
+<section class="grid-section"><div class="flip" style="--i:0"><div class="flip-in"><div class="face"><h3>Ingrédients</h3></div><div class="face back"><p>Citrons, citrons verts et une pointe de menthe fraîche. Rien d'autre.</p></div></div></div><div class="flip" style="--i:1"><div class="flip-in"><div class="face"><h3>Bienfaits</h3></div><div class="face back"><p>Une belle source de vitamine C, pour un coup de fraîcheur naturel.</p></div></div></div><div class="flip" style="--i:2"><div class="flip-in"><div class="face"><h3>Goût</h3></div><div class="face back"><p>Vif, net et désaltérant, avec une finale mentholée.</p></div></div></div><div class="flip" style="--i:3"><div class="flip-in"><div class="face"><h3>Fabrication</h3></div><div class="face back"><p>Pressé à froid moins de 48 h après la cueillette, sans pasteurisation lourde.</p></div></div></div></section>
+<section class="testimonial-section"><div class="testimonial rev"><p>« Le citron le plus frais de ma vie. » — Yanis, Marseille</p><span>★★★★★</span></div></section>
+<section class="purchase-section"><div class="purchase-container">
+<div class="stage3d" id="stage3d"><div class="fruit3d" id="fruit3d"></div></div>
+<h2>SÈVE Citron</h2><p class="price" id="price">11,00 €</p><p class="description">Un jus de citron vif et désaltérant, pressé à froid, pour réveiller chaque journée.</p>
+<div class="purchase-options"><div class="option"><label for="product-size">Taille</label><select id="product-size"><option value="250 ml" data-m="1">250 ml</option><option value="500 ml" data-m="1.8">500 ml</option><option value="1 L" data-m="3.2">1 L</option></select></div><div class="option"><label for="product-qty">Quantité</label><input id="product-qty" type="number" min="1" value="1"></div></div>
+<button class="btn-premium" id="add-to-cart">Ajouter au panier</button></div></section>
+<section class="ring-section"><h3>Choisis ton jus</h3><div class="ring-stage" id="ring-stage"><div class="ring" id="ring"></div></div><div class="ring-ctrl"><button id="ring-prev" aria-label="Précédent">‹</button><button id="ring-next" aria-label="Suivant">›</button></div></section>
+<section class="next-section" id="next-section"></section>
+</main>
+<nav class="dock" id="dock"></nav>
+<aside id="cart-drawer"><div class="drawer-header"><h2>Votre panier</h2><button id="close-cart">✕</button></div><div id="cart-items"></div><div class="total-line"><span>Total</span><span id="cart-total">0,00 €</span></div><button class="btn-checkout" id="checkout-btn">Commander</button></aside>
+<script src="script3.js"></script></body></html>
